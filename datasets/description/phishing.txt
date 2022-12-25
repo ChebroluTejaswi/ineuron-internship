@@ -1,0 +1,19 @@
+phish_id The ID number by which Phishtank refers to a phish submission. All data in PhishTank is tied to this ID. This will always be a positive integer.
+
+phish_detail_url PhishTank detail url for the phish, where you can view data about the phish, including a screenshot and the community votes.
+
+url The phish URL. This is always a string, and in the XML feeds may be a CDATA block.
+
+submission_time The date and time at which this phish was reported to Phishtank. This is an ISO 8601 formatted date.
+
+verified Whether or not this phish has been verified by our community. In these data files, this will always be the string 'yes' since we only supply verified phishes in these files.
+
+verification_time The date and time at which the phish was verified as valid by our community. This is an ISO 8601 formatted date.
+
+online Whether or not the phish is online and operational. In these data files, this will always be the string 'yes' since we only supply online phishes in these files.
+
+target The name of the company or brand the phish is impersonating, if it's known.
+
+
+
+Reference url: https://www.phishtank.com/developer_info.php

@@ -1,0 +1,7 @@
+Benign URLs: Over 35,300 benign URLs were collected from Alexa top websites. 
+The domains have been passed through a Heritrix web crawler to extract the URLs. 
+Around half a million unique URLs are crawled initially and then passed to remove 
+duplicate and domain only URLs. Later the extracted URLs have been checked through 
+Virustotal to filter the benign URLs.
+
+Reference: https://www.unb.ca/cic/datasets/url-2016.html

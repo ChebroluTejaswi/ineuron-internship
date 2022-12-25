@@ -1,0 +1,10 @@
+legitimate.csv: 
+phishing.csv:
+
+legitimate_data_sample.csv:
+phishing_data_sample.csv:
+
+legitimate_feature_extracted.csv:
+phishing_feature_extracted.csv:
+
+final_feature_extracted.csv:
