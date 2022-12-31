@@ -1,10 +1,10 @@
-legitimate.csv: 
-phishing.csv:
+legitimate.csv: 35,300 benign URLs were collected from Alexa top websites.
+phishing.csv: More than 14,000 URLS collected from PishTank. 
 
-legitimate_data_sample.csv:
-phishing_data_sample.csv:
+legitimate_data_sample.csv: 5000 records randomly selected from legitimate.csv
+phishing_data_sample.csv: 5000 records randomly selected from phishing.csv
 
-legitimate_feature_extracted.csv:
-phishing_feature_extracted.csv:
+legitimate_feature_extracted.csv: dataset with extracted featues from legitimate_data_sample.csv
+phishing_feature_extracted.csv: dataset with extracted featues from phishing_data_sample.csv
 
-final_feature_extracted.csv:
+final_feature_extracted.csv: Merged both the files.
